@@ -1,0 +1,13 @@
+SOLID stands for:
+
+S - Single-responsiblity Principle
+O - Open-closed Principle
+L - Liskov Substitution Principle
+I - Interface Segregation Principle
+D - Dependency Inversion Principle
+In this article, you will be introduced to each principle individually to understand how SOLID can help make you a better developer.
+
+Single-Responsibility Principle
+Single-responsibility Principle (SRP) states:
+
+A class should have one and only one reason to change, meaning that a class should have only one job.

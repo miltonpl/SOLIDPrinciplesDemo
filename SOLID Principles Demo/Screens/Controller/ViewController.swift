@@ -40,8 +40,15 @@ class ViewController: UIViewController {
                 print("error - \(error.localizedDescription)")
             }
         }
-         */
-        self.fetcher.parser(query: "House") { _ in
+        */
+        self.fetcher.parser(query: "House") { result in
+            switch result {
+            
+            case .success(let obctData):
+                print("Success \(obctData)")
+            case .failure(let error):
+                print("error - \(error.localizedDescription)")
+            }
             
         }
     }
